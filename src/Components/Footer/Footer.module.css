@@ -1,0 +1,19 @@
+
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    position:absolute;
+    height: 35px;
+    width: 100%;
+    justify-content: center;
+    align-items:center;
+    font-size: 0.85rem;
+    
+}
+.footer span{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    color: rgb(182, 95, 233);
+    font-weight: 1000;
+}
