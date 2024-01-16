@@ -2,8 +2,8 @@ import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Banner from "./Components/Banner";
 import Container from "./Components/Container";
-
-
+import Card from "./Components/Card";
+import videos from "./Json/db.json"
 function App() {
   return (
     <>
@@ -11,7 +11,15 @@ function App() {
       <Banner image= "home" />
       <Container>
           <h2>Geografia</h2>
-          <p>Lista de Cards videos</p>
+            <section className="cards">
+            {videos.map(video=>{
+            return(
+              <Card url={video.url} cover={video.cover} key={video.id}/>
+            )})}
+            
+           
+            </section>
+          
       </Container> 
       <Footer/>
     </>
