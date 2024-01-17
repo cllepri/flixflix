@@ -1,13 +1,19 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
+
 import styles from "./Header.module.css";
+import { Link } from "react-router-dom";
 
 function Header(){
     return(
         <header className={styles.header}>
+            <Link to="/">
             <span>Flix Flix</span>
+            </Link>
+            
             <nav className={styles.nav}>
-                <a href="#">Home</a>
-                <a href="#">Assistir</a>
+                
+
+                <Link to='/'>Home</Link>
+                <Link to='/Watch'>Watch</Link>
             </nav>
 
         </header>
