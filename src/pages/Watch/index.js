@@ -8,17 +8,19 @@ function Watch() {
     <>
       <Header />
       <Container>
+      <h1>Outros Videos interessantes</h1>
         <section className={styles.watch}>
-          <h1>Assistir</h1>
+           {/* Podemos fazer um json com os dados dos videwos de deixar o app organizare a apresnetação */}
           <iframe
-            width="854"
-            height="480"
+            width="350"
+            height="280"
             src="https://www.youtube.com/embed/uLDdfvnsk30?si=q35odz8BKJvtVG9e"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
           ></iframe>
+          <iframe width="350" height="280" src="https://www.youtube.com/embed/HB-oqf4Jiv0?list=PLnex8IkmReXyNgtea8ly0Pn7Kk7Kavn9v" title="Curso de React JS Aula 09 Criar Page 404 Page Not Found e Ajustes no CSS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </section>
       </Container>
       <Footer />

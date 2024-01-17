@@ -1,7 +1,6 @@
 .watch {
-   
-   
-   
-    min-height: 78vh;
-    
+    display: flex;
+    justify-content: center;
+    min-height: 71vh;
+    gap: 15px;  
 }
