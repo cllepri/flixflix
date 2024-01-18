@@ -1,0 +1,17 @@
+
+.container{
+    min-height: 77vh;
+    display: flex;
+    justify-content: center;
+
+}
+h2 {
+    display: flex;
+    justify-content: center;
+   
+}
+img{
+    margin-bottom: 47px;
+} 
+
+

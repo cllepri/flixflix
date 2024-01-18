@@ -6,7 +6,7 @@ export const categories = [
     "Como fazer e usar",
     "Astronomia e Geografia",
     "Climatologia, Meteorologia, Vegetação",
-    "Geologia e Hidroigrafia"
+    "Geologia e Hidrografia"
 ]
 
 // tentar desestruturar o json para obter os "category"
