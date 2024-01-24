@@ -14,7 +14,7 @@ function Home() {
         {categories.map((category, index) => (
           <Category category={category}>
             {filterCategory(index).map((video) => (
-              <Card url={video.url} cover={video.cover} key={video.id} />
+              <Card id={video.id} key={video.id} />
             ))}
           </Category>
         ))}
