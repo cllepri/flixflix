@@ -1,7 +1,7 @@
 import styles from "./pageNotFound.module.css";
 import erro404 from "./erro404.png";
-import Header from "../../Components/Header";
-import Footer from "../../Components/Footer";
+import Header from "../../Components/Header/index";
+import Footer from "../../Components/Footer/Footer.jsx";
 
 export function PageNotFound() {
   return (

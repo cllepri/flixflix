@@ -1,7 +1,7 @@
 import styles from "../Watch/Watch.module.css";
 import Header from "../../Components/Header";
-import Container from "../../Components/Container";
-import Footer from "../../Components/Footer";
+import Container from "../../Components/Container/Container.jsx";
+import Footer from "../../Components/Footer/Footer.jsx";
 import { useParams } from "react-router-dom";
 import videos from '../../Json/videos.json';
 

@@ -1,16 +1,22 @@
-.category{
-    display: flex;
-    flex-direction: column;
-    
+.category {
+  display: flex;
+  flex-direction: column;
+  min-width: 280px;
+  max-width: 1200px ;
+  margin-left: 2rem;
 }
 
-.category div{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-   
+.category div {
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+  width: 100%;
+  /* height: fit-content; */
+ 
+ 
+  
+    
 }
-h2{
-    margin-bottom: 20px;
+h2 {
+  margin-bottom: 20px;
 }

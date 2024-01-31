@@ -6,3 +6,7 @@
     width: 225px;
     
 }
+.card img:hover{
+   transform: scale(1.03);
+   z-index: 9999999;
+}
